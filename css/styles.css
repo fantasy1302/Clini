@@ -430,6 +430,12 @@ margin-top: 6em;
     .why-img {
         width: 100%;
         order: 2;
+        display: flex;
+justify-content: center;
+      }
+      .why-img img:hover {
+        transition: 1.7s;
+        width: 70%;
       }
       .why-img img {
         max-width: 280px;
@@ -446,6 +452,9 @@ margin-bottom: 10px;
       }
       .options h2 {
         text-align: center;
+      }
+      .clients-img {
+        overflow: hidden;
       }
       .footer-items { 
         flex-direction: column;
@@ -505,4 +514,26 @@ border-radius: 30px;
             padding: 0;
             background-image: none;
            }
+           .phone {
+            background-image: url("file:///Users/mac/Desktop/Clini/img/phone.webp");
+background-size: 477px;
+background-repeat: no-repeat;
+height: 590px;
+background-position-x: -25px;
+background-position: bottom;
+background: 323c46;
+background-color: #323c46;
+           }
+ .clients-images.0,.clients-images.1 {
+    display: none;
+ }
+ .clients {
+    overflow: hidden;
+ }
+ .clients-img:nth-child(2){
+    display: none;
+ }
+ div.clients-card:nth-child(2) {
+    display: none;
+ }
 }

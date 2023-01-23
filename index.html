@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/976373c9a5.js" crossorigin="anonymous"></script>
     <title>Clini.io</title>
 </head>
@@ -22,6 +22,9 @@
                     <li>Contact</li>
                     <li>Shop</li>
                 </ul>
+            </nav>
+            <nav class="navigation-mobile">
+                <i class="fa-solid fa-bars"></i>
             </nav>
         </header>
         <main class="hero">
@@ -43,64 +46,83 @@
                 </div>
             </div>
             <div class="hero-2 block">
-                <div class="">
-                    <div class="hero-2-row-1">        
+                <div class="hero-2-images">
+                    <div class="hero-2-row-1">
                         <img class="hero-2-row-1-img-1" src="img/hero-2-1.webp" alt="">
                         <img class="hero-2-row-1-img-2" src="img/hero-2-2.webp" alt="">
                     </div>
                     <div class="hero-2-row-2">
                         <img class="hero-2-row-1-img-3" src="img/hero-2-3.webp" alt="">
-                        <img class="hero-2-row-1-img-4" src="img/hero-2-4.webp"  alt="">
-                    </div> 
+                        <img class="hero-2-row-1-img-4" src="img/hero-2-4.webp" alt="">
                     </div>
+                </div>
                 <div class="hero-2-info">
                     <h2>Services and pricing</h2>
-                    <button class="btn">Check it now ></button>
+                    <button class="btn">Check it now <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
             <div class="clients block">
                 <h2>Our happy clients</h2>
                 <p>What they say about us</p>
-                <div class="clients-quote"><p>The cleaning went at a very high level. The cleaner was very polite and the apartment smelled really clean after. All surfaces are very clean and the plumbing is like nothing I have seen since moving in. We will continue to use your service, a salvation for the modern housewife</p></div>
+                <div class="clients-quote">
+                    <p class="client-text">The cleaning went at a very high level. The cleaner was very polite and the
+                        apartment smelled
+                        really clean after. All surfaces are very clean and the plumbing is like nothing I have seen
+                        since moving in. We will continue to use your service, a salvation for the modern housewife</p>
+                </div>
                 <div class="clients-img">
-                    <img class="clients-images 1" src="img/Santiago-modified.webp" alt="">
-                    <img class="clients-images 2" src="img/angie.webp" alt="">
-                    <img class="clients-images 3 " src="img/Maria-modified.webp" alt="">
-                    <img class="clients-images 4" src="img/nata.webp" alt="">
-                    <img class="clients-images 5" src="img/Lubov-modified.webp" alt="">
+                    <div class="clients-card 0">
+                        <img class="clients-images 0" src="img/Santiago-modified.webp" alt="">
+                        <p class="clients-text-0"></p>
+                    </div>
+                    <div class="clients-card 1">
+                        <img class="clients-images 1" src="img/angie.webp" alt="">
+                        <p class="clients-text-1"></p>
+                    </div>
+                    <div class="clients-card 2 active">
+                        <img class="clients-images 2 active" src="img/Maria-modified.webp" alt="">
+                        <p class="clients-text-2"><strong>Maria</strong><br>Standard Cleaning<br>(apartment)</p>
+                    </div>
+                    <div class="clients-card 3">
+                        <img class="clients-images 3" src="img/nata.webp" alt="">
+                        <p class="clients-text-3"></p>
+                    </div>
+                    <div class="clients-card 4">
+                        <img class="clients-images 4" src="img/Lubov-modified.webp" alt="">
+                        <p class="clients-text-4"></p>
+                    </div>
+                    <div class="clients-card 5">
+                        <img class="clients-images 5" src="img/shorena.webp" alt="">
+                        <p class="clients-text-5"></p>
+                    </div>
                 </div>
             </div>
             <div class="why block">
                 <div class="why information">
-                    <h2>Why Clini.io?</h2>
-                    <p>Our company provides a completely new format of Cleaning services in Georgia. It is high-quality
-                        professional Standard and Deep cleaning combined with a high level of service and legal
-                        documentation</p>
-                    <button class="btn btn-cn">Contact now <i class="fa-solid fa-arrow-right"></i></button>
+                    <h2>FAQ</h2>
+                    <p>Any questions? We've gathered for you the answers to the frequently asked questions</p>
+                    <button class="btn btn-cn">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
                 <div class="why-img">
                     <img src="img/faq.png" alt="">
                 </div>
             </div>
             <div class="why block">
-                <div class="why information">
-                    <h2>Why Clini.io?</h2>
-                    <p>Our company provides a completely new format of Cleaning services in Georgia. It is high-quality
-                        professional Standard and Deep cleaning combined with a high level of service and legal
-                        documentation</p>
-                    <button class="btn btn-cn">Contact now <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
                 <div class="why-img">
                     <img src="img/tools.webp" alt="">
+                </div>
+                <div class="why information">
+                    <h2>Our shop</h2>
+                    <p>Online store of chemicals products, cleaning supplies and other cleaning tools for personal and
+                        professional use</p>
+                    <p class="btn btn-cn"> Coming soon! </i></p>
                 </div>
             </div>
             <div class="phone block">
                 <div class="phone-block information">
-                    <h2>Why Clini.io?</h2>
-                    <p>Our company provides a completely new format of Cleaning services in Georgia. It is high-quality
-                        professional Standard and Deep cleaning combined with a high level of service and legal
-                        documentation</p>
-                    <button class="btn btn-ph-cn">Contact now <i class="fa-solid fa-arrow-right"></i></button>
+                    <h2>Ensure cleanliness in your home and office</h2>
+                    <p>Contact us in order to book cleaning day and ask questions</p>
+                    <button class="btn btn-ph-cn">Contact us <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
                 <div class="why-img">
                     <img src="" alt="">
@@ -110,42 +132,53 @@
     </div>
     <section class="options">
         <div class="options wrapper">
-            <h2>Choose your cleaning service</h2>
+            <h3>Choose your cleaning service</h3>
             <div class="options-section">
                 <div class="card">
-                    <h3>Standard</h3>
-                    <p>1.5 GEL/sqm</p>
-                    <p>Maintenance cleaning. Suitable for light soiling, regular cleaning (2-4 times a week)</p>
-                    <button class="btn btn-arw"><i class="fa-solid fa-arrow-right"></i></button>
+                    <h4>Standard</h4>
+                    <p class="cards-price-text">1.5 <i class="fa-solid fa-lari-sign"></i>/sqm</p>
+                    <p class="footer-card-text">Maintenance cleaning. Suitable for light soiling, regular cleaning (2-4
+                        times a week)</p>
+                    <div class="btn-arrow-section"><button class="btn btn-arw"><i
+                                class="fa-solid fa-arrow-right"></i></button></div>
                 </div>
                 <div class="card">
-                    <h3>Deep</h3>
-                    <p>2.5 GEL/sqm</p>
-                    <p>Cleaning of medium to heavy dirt. Suitable for ordering once every 1-2 months. We recommend
+                    <h4>Deep</h4>
+                    <p class="cards-price-text">2.5 <i class="fa-solid fa-lari-sign"></i>/sqm</p>
+                    <p class="footer-card-text">Cleaning of medium to heavy dirt. Suitable for ordering once every 1-2
+                        months. We recommend
                         starting our cooperation with this type of cleaning</p>
-                    <button class="btn btn-arw"><i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="btn-arrow-section"><button class="btn btn-arw"><i
+                                class="fa-solid fa-arrow-right"></i></button></div>
                 </div>
                 <div class="card">
-                    <h3>Custom</h3>
-                    <p>Upon request</p>
-                    <p>Do you have your own suggestion? We are always happy to hear your individual requests. We will
+                    <h4>Custom</h4>
+                    <p class="cards-price-text">Upon request</p>
+                    <p class="footer-card-text">Do you have your own suggestion? We are always happy to hear your
+                        individual requests. We will
                         gladly prepare an estimate calculations based on your needs</p>
-                    <button class="btn btn-arw"><i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="btn-arrow-section"><button class="btn btn-arw"><i
+                                class="fa-solid fa-arrow-right"></i></button></div>
                 </div>
             </div>
+            <h4>What are you waiting for?</h4>
+            <h2 class="footer-header">Enjoy cleanliness like never before</h2>
+            <button class="btn ft-btn">Order cleaning</button>
         </div>
     </section>
     <footer>
         <section class="footer-items">
-            <div class="footer-item">2022 © Clini Cleaning Services LLC</div>
+            <div class="footer-item"><ul><li>2022 © Clini Cleaning Services LLC</li></ul></div>
             <div class="footer-item">
                 <ul>
                     <li> <i class="fa-solid fa-phone"></i><a href="tel:+995 597 993 786">+995 597 993 786</a></li>
-                    <li> <i class="fa-solid fa-envelope"></i><a href="mailto:info@clini.io" data-type="URL" data-id="info@clini.io">info@clini.io</a></li>
-                    <li><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/8V5ydZupiq5uJkEt6">Georgia, Tbilisi, Vake district, Ateni st, N6-8, Space N4b, Postal Code 0179</a></li>
+                    <li> <i class="fa-solid fa-envelope"></i><a href="mailto:info@clini.io" data-type="URL"
+                            data-id="info@clini.io">info@clini.io</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/8V5ydZupiq5uJkEt6">Georgia,
+                            Tbilisi, Vake district, Ateni st, N6-8, Space N4b, Postal Code 0179</a></li>
                 </ul>
             </div>
-            <div class="footer-item"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i></div>
+            <div class="footer-item"><ul><li><i class="fa-brands fa-instagram"></i></li><li><i class="fa-brands fa-facebook"></i></li></ul></div>
             <div class="footer-item">
                 <ul>
                     <li>Terms and Conditions</li>
@@ -155,32 +188,9 @@
             </div>
         </section>
     </footer>
+    <script src="js/parallax.js"></script>
+    <script src="js/testimonials.js"></script>
     <script>
-        window.addEventListener("scroll", () => {
-            let scroll = scrollY;
-            const section = document.querySelector(".hero");
-            section.style.backgroundSize = `${100 + (scroll * 0.1)}%`;
-
-            if (scroll > 100) {
-                section.style.filter = `blur(3px)`;
-            } else {
-                section.style.filter = `blur(0px)`;
-            }
-        });
-      
-        function changeText() {
-  document.getElementById("textChange").innerHTML = "Hello JavaScript";
-}
-
-            var images = document.querySelector("clients-images");
-
-            images.addEventListener("click", function() {
-      var quote = document.getElementsByClassName("clients-quote");
-      quote.innerText = "New text";
-    });
-
-
-
     </script>
 </body>
 
